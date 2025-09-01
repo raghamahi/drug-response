@@ -1,0 +1,6 @@
+plot_drug_response.py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read the CSV file
+data = pd.read_csv('drug_response.csv')
